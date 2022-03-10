@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print needed sttring and 
+ * main - prints string
  * Return: 0 if exited properly
  */
 int main(void)
