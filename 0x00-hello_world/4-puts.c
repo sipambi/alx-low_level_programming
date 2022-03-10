@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print needed sttring and 
  * Return: 0 if exited properly
