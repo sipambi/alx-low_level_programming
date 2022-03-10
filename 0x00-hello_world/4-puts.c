@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - print needed sttring and 
- * return 0 afterwards
+ * Return: 0 if exited properly
  */
 int main(void)
 {
