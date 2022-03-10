@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*print needed sttring and returns 0*/
+/**
+ * main - print needed sttring and 
+ * return 0 afterwards
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
