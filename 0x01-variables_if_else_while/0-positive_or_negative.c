@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers */
 
-/* main - checking for positive, negative numbers */
+/**
+ * main - checking for positive, negative numbers
+ * Return: 0 if exited properly
+ */
 int main(void)
 {
 	int n;
