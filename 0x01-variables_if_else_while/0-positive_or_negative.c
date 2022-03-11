@@ -1,10 +1,19 @@
-#include <stdio.h>
-/**
- * main - prints string
- * Return: 0 if exited properly
- */
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if(n > 0)
+		printf("%d is positive", n);
+	if(n == 0)
+		printf("%d is zero", n);
+	if(n < 0)
+		printf("%d is negative", n);
 	return (0);
 }
