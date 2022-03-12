@@ -9,6 +9,7 @@ int main(void)
 {
 	int firstNumber;
 	int secondNumber;
+
 	while (firstNumber < 10)
 	{
 		secondNumber = 0;
