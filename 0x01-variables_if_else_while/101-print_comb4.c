@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (b = 1; b < 10; b++)
 		{
-			if (c = 2; c < 10: c++)
+			for (c = 2; c < 10; c++)
 			{
 				if (c > b && b > a)
 				{
