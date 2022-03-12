@@ -10,16 +10,16 @@ int main(void)
 	int firstNumber;
 	int secondNumber;
 	
-	while(firstNumber < 9)
+	while (firstNumber < 10)
 	{
 		secondNumber = 0;
-		while(secondNumber < 9)
+		while (secondNumber < 10)
 		{
-			if(firstNumber != secondNumber && firstNumber < secondNumber)
+			if (firstNumber != secondNumber && firstNumber < secondNumber)
 			{
 				putchar(firstNumber + 48);
 				putchar(secondNumber + 48);
-				if(secondNumber == 9 && firstNumber == 8)
+				if (secondNumber == 9 && firstNumber == 8)
 				{
 					break;
 				}
