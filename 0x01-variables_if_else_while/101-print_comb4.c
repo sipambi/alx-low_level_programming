@@ -17,9 +17,9 @@ int main(void)
 			{
 				if (c > b && b > a)
 				{
-					putchar(a);
-					putchar(b);
-					putchar(c);
+					putchar(a + 48);
+					putchar(b + 48);
+					putchar(c + 48);
 					if (a != 7 || b != 8)
 					{
 						putchar(',');
