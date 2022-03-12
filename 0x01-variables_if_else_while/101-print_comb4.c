@@ -27,9 +27,7 @@ int main(void)
 					}
 				}
 			}
-			secondNumber++;
 		}
-		firstNumber++;
 	}
 	putchar('\n');
 	return (0);
