@@ -32,7 +32,7 @@ void jack_bauer(void)
 				}
 				else if (mins >= 10)
 				{
-					_putchar(mins + 48);
+					_putchar(mins);
 				}
 				_putchar('\n');
 			}
