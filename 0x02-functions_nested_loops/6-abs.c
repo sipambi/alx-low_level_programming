@@ -2,12 +2,11 @@
 
 /**
  * _abs - computes the absolute of a number
- * @n : is the number to be checked
+ * @n : is the number to be converted
  * Return: returns the absolute number
  */
 
-int n;
-int _abs(n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
