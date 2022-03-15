@@ -7,7 +7,7 @@ void jack_bauer(void)
 {
 	int hourmax = 58;
 	int hourtens = '0';
-	int hourones, minutetens, minutesones;
+	int hourones, minutetens, minuteones;
 
 	while (hourtens < '3')
 	{
