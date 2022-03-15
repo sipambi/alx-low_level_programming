@@ -10,10 +10,10 @@ int main(void)
 	char text[9] = "_putchar";
 	int i = 0;
 
-	while(i<8)
+	while (i < 8)
 	{
 		_putchar(text[i]);
-		i++;;
+		i++;
 	}
 	_putchar('\n');
 	return (0);
