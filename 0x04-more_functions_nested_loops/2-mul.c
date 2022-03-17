@@ -2,7 +2,7 @@
 
 /**
  * mul - multiples two integers
- * @c: first variable
+ * @a: first variable
  * @b: second variable
  * Return: 0 if everything goes well
  */
