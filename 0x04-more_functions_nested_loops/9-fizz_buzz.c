@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,9 +9,9 @@
 
 int main(void)
 {
-	int c;
+	int c = 1;
 
-	for (c = 1; c < 100; c++)
+	for (; c < 100; c++)
 	{
 		if (c % 3 == 0 && c % 5 == 0)
 			printf("FizzBuzz ");
@@ -22,5 +23,6 @@ int main(void)
 			printf("%d", c);
 	}
 	printf("Buzz\n");
+
 	return (0);
 }
