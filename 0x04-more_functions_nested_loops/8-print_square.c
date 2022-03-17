@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_diagonal(int size)
+void print_square(int size)
 {
 	int c = 0;
 	int x = 0;
