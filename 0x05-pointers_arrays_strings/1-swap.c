@@ -4,7 +4,6 @@
  * swap_int: swaps the values of two integers
  * @a: first value
  * @b: second value
- * @c: for storing the values of one of the variables
  * Return: Always 0
  */
 
