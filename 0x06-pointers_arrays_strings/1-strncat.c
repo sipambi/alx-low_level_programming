@@ -4,6 +4,7 @@
  * _strcat - concatenates two strings
  * @dest: first string
  * @src: second string
+ * @n: number of bytes
  * Return: returns a char
  */
 
@@ -15,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	while (j >= 0)
+	while (j < n)
 	{
 		*(dest + i) = *(src + j);
 		if (*(src + j) == '\0')
