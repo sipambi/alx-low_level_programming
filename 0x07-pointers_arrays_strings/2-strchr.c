@@ -24,6 +24,6 @@ char *_strchr(char *s, char c)
 
 	if (b != 1)
 	{
-		return NULL;
+		return (NULL);
 	}
 }
