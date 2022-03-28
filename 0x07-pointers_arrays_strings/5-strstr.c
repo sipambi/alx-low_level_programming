@@ -2,7 +2,7 @@
 
 /**
  * _strstr - locates a substring
- * @hastack: 1st variable
+ * @haystack: 1st variable
  * @needle: 2nd variable
  * Return: pointer
  */
