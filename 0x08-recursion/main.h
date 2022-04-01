@@ -8,3 +8,4 @@ int is_prime_number(int n);
 int _putchar(char c);
 int _sqrt(int n, int i);
 int divisors(int n, int m);
+int wildcmp(char *s1, char *s2);
