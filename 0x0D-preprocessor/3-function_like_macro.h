@@ -1,4 +1,5 @@
+#include "stdio.h"
 #ifndef MACRO_FXN
 #define MACRO_FXN
-#define ABS(X) ((x < 0) ? (x) * (-1) : (x))
+#define ABS(x) abs(x)
 #endif
