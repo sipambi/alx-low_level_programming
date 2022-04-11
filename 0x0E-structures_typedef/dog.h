@@ -9,7 +9,7 @@
  * Description: Struct is for man's best friend
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
