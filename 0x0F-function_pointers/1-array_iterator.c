@@ -1,7 +1,7 @@
 #include "functions_pointers.h"
 
 /**
- * array_iterator -executes a fxn given as a parameter
+ * array_iterator - executes a fxn given as a parameter
  * @array: array
  * @size: size
  * @action: pointer to function
