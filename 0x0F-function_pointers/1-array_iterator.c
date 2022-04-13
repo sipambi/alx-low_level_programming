@@ -3,7 +3,7 @@
 /**
  * array_iterator -executes a fxn given as a parameter
  * @array: array
- * @size_t: size
+ * @size: size
  * @action: pointer to functio
  */
 
