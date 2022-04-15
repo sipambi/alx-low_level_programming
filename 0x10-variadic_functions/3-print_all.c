@@ -20,7 +20,8 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == t_arg[j] && c)
 			{
-				printf(", "), break;
+				printf(", ");
+				break;
 			}
 			j++;
 		}
@@ -39,7 +40,8 @@ void print_all(const char * const format, ...)
 				str = va_arg(ap, char *), c = 1;
 				if (!str)
 				{
-					printf("(nil)"), break;
+					printf("(nil)");
+					break;
 				}
 				printf("%s", str);
 				break;
