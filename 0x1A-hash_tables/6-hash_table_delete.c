@@ -1,16 +1,15 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_delete - deletes a hash table.
- * @ht: hash table to be deleted.
+ * hash_table_delete - function that delete a hash table
+ * @ht: type pointer of the hash_tabe
  */
-
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int i;
 	hash_table_t *head = ht;
 	hash_node_t *node, *temp;
-
+	
 	for (i = 0; i < ht->size; i++)
 	{
 		if (ht->array[i] != NULL)
